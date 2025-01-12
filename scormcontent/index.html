@@ -87,7 +87,7 @@
                 jsonp[id] = resolve
                 const script = document.createElement('script')
                 script.onerror = reject
-                script.src = `./${path}`
+                script.src = `https://oasisc-maker.github.io/Social_Intelligence/scormcontent/${path}`
                 document.head.appendChild(script)
               } catch (err) {
                 reject(err)
